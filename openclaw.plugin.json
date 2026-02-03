@@ -1,0 +1,15 @@
+{
+  "id": "lark-bot",
+  "version": "1.0.0",
+  "title": "Lark Bot",
+  "description": "Connect a Lark/Feishu custom app bot as an OpenClaw channel",
+  "author": "OpenClaw Community",
+  "license": "MIT",
+  "repository": "https://github.com/UnknownIdentity7119/openclaw-lark-bot",
+  "channels": ["lark-bot"],
+  "configSchema": {
+    "type": "object",
+    "properties": {},
+    "additionalProperties": false
+  }
+}

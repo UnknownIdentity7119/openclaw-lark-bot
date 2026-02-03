@@ -1,0 +1,46 @@
+{
+  "name": "openclaw-lark-bot",
+  "version": "1.0.0",
+  "description": "Lark/Feishu custom app bot channel plugin for OpenClaw — supports WebSocket and Webhook modes",
+  "keywords": [
+    "openclaw",
+    "lark",
+    "feishu",
+    "bot",
+    "channel",
+    "plugin",
+    "messaging",
+    "webhook",
+    "websocket"
+  ],
+  "author": "OpenClaw Community",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UnknownIdentity7119/openclaw-lark-bot"
+  },
+  "homepage": "https://github.com/UnknownIdentity7119/openclaw-lark-bot#readme",
+  "bugs": {
+    "url": "https://github.com/UnknownIdentity7119/openclaw-lark-bot/issues"
+  },
+  "openclaw": {
+    "extensions": ["./index.ts"],
+    "channel": {
+      "id": "lark-bot",
+      "label": "Lark Bot",
+      "selectionLabel": "Lark Bot (Custom App)",
+      "docsPath": "/channels/lark-bot",
+      "blurb": "Lark/Feishu custom app bot via webhook or websocket.",
+      "aliases": ["lark", "feishu"]
+    }
+  },
+  "dependencies": {
+    "@larksuiteoapi/node-sdk": "^1.36.2"
+  },
+  "peerDependencies": {
+    "openclaw": ">=2026.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
